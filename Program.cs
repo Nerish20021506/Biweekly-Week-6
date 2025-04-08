@@ -11,8 +11,10 @@ namespace Average
         static void Main(string[] args)
         {
             double total = 0;
-            double gradecount = 3;
-            for (int gradecounter = 1; gradecounter <= 5; gradecounter++) 
+            // No. of grade inputs changed to 4
+            double gradecount = 4;
+            //Parameter changed to make the loop run 4 times
+            for (int gradecounter = 1; gradecounter <= 7; gradecounter++) 
             {
                 Console.Write("Enter the grade: ");
                 double grade = Convert.ToDouble(Console.ReadLine());
